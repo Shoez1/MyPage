@@ -19,7 +19,7 @@ ikonik CUSTOMIZER OPTIONS
 		remove markup on index.html when no mp3 is uploaded
 		
 	- Background Music Autoplay
-		default		: off
+		default		: ON
 		class 		: <div id="play-music" class="play-music autoplay"> *add autoplay class when ON
 
 	- Click Ripple Effect (dropdown on/off) 
