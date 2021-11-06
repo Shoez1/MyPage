@@ -247,7 +247,7 @@
                         <!-- .site-info --> 
                         <div class="site-info">
                             <div class="textwidget">
-                                <p><a href="http://pixelwars.org/">&copy; 2020 MTS Production.</a></p>
+                                <p><a href="http://pixelwars.org/">&copy; <span id="ano">dataatual</span> MTS Production.</a></p>
                             </div>
                         </div>
                         <!-- .site-info --> 
@@ -292,7 +292,12 @@
         <script src="js/resize-sensor.js"></script>
         <script src="js/jquery-sticky-sidebar.js"></script>
         <script src="js/main.js"></script>
-        
-        
+		<script>
+		const ano = document.getElementById("ano");
+		const anoAtual = new Date();
+
+			ano.innerHTML = anoAtual.getFullYear();
+		</script>
+                
 	</body>
 </html>
